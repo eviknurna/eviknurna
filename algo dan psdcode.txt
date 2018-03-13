@@ -1,0 +1,21 @@
+Algorima
+1. Langkah pertama mulai
+2. Isi username dan password
+3. Cek ussername dan password benar atau salah
+4. Jika benar, maka akan melanjutkan proses baca menu kemudian tampil user menu
+5. Jika salah, maka proses ini akan kembali ke proses 2, setiap proses login error session akan ditambah 1
+   dan apabila proses masih salah akan diulang maksimal sebanyak 3x.
+   Dan jika melebihi batas maksimal maka akun akan diblokir.
+6. Selesai.
+
+
+Pseudocode
+Start
+input user name dan password
+if ($username == $user && $password == $pass)
+	show user menu
+if($username != $user && $password != $pass)
+	input username dan password
+if ($SESSION <3)
+	User blocked.
+end.
